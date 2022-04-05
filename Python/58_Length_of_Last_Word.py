@@ -30,6 +30,7 @@ There will be at least one word in s.
 '''
 
 class Solution:
+    #2022-04-05
     def lengthOfLastWord(self, s):
         Last = list(s.split())[-1]
         #print (Last)
