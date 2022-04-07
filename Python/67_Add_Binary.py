@@ -21,6 +21,7 @@ Each string does not contain leading zeros except for the zero itself.
 '''
 
 class Solution:
+    #2022-04-07
     def addBinary(self, a, b):
         a = int(a,2)
         b = int(b,2)
