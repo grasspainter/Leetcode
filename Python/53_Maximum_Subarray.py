@@ -28,7 +28,7 @@ Constraints:
 
 
 class Solution():
-    #2022-04-04
+    #2022-04-04 
     def maxSubArray(self, nums):
         Maxsub = nums[0]
         Cursum = 0
