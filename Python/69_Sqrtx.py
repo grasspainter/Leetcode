@@ -24,6 +24,7 @@ Constraints:
 '''
 
 class Solution:
+    #2022-04-08
     def mySqrt(self, x):
         a = int(x**0.5)
         return a
