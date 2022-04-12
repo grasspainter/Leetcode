@@ -56,22 +56,21 @@ def print_list(l):
         print(v.val)
         v = v.next    
 
-l1 = ListNode(1)
-l1.next = ListNode(2)
-l1.next.next = ListNode(4)
-
-l2 = ListNode(1)
-l2.next = ListNode(3)
-l2.next.next = ListNode(4)
-
-Result = Solution().mergeTwoLists(l1,l2)
-print_list(Result)
+#l1 = ListNode(1)
+#l1.next = ListNode(2)
+#l1.next.next = ListNode(4)
+#
+#l2 = ListNode(1)
+#l2.next = ListNode(3)
+#l2.next.next = ListNode(4)
+#
+#Result = Solution().mergeTwoLists(l1,l2)
+#print_list(Result)
 
 class SingleLinkedList:
     def __init__(self):
         self.head = None
         self.tail = None
-    
     def append(self, data):
         #建立 class Node 的instance(實體)
         new_node = ListNode(data)
@@ -104,7 +103,7 @@ list.output_list()
 list.append(1)
 list.append(2)
 list.output_list()
-l1 = list
+#l1 = list
 l2 = list
 l2.output_list()
 #print (l1,l2)
