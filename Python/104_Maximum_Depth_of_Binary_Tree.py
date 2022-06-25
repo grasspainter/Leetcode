@@ -38,14 +38,16 @@ class Solution:
         if not curr:
             return 0
         else:
+            print (curr.val)
+            #return self.maxDepth(root.left) + 1 
             return max(self.maxDepth(root.left), self.maxDepth(root.right)) + 1
 
 
 if __name__ == '__main__':
     result = Solution()
     root = TreeNode(val=3, left=TreeNode(val=9, left=None, right=None), right=TreeNode(val=20, left=TreeNode(val=15, left=None, right=None), right=TreeNode(val=7, left=None, right=None)))
-    root = TreeNode(val=1, left=None, right=TreeNode(val=2, left=None, right=None))
+    #root = TreeNode(val=1, left=None, right=TreeNode(val=2, left=None, right=None))
     #root = TreeNode(val=1, left=TreeNode(val=2, left=TreeNode(val=3, left=TreeNode(val=4, left=TreeNode(val=5, left=None, right=None), right=None), right=None), right=None), right=None)
     #root = TreeNode(val=1, left=TreeNode(val=2, left=TreeNode(val=4, left=None, right=None), right=TreeNode(val=5, left=None, right=None)), right=TreeNode(val=3, left=None, right=None))
-    root  = TreeNode(val=2, left=None, right=TreeNode(val=3, left=None, right=TreeNode(val=4, left=None, right=TreeNode(val=5, left=None, right=TreeNode(val=6, left=None, right=None)))))
+    #root  = TreeNode(val=2, left=None, right=TreeNode(val=3, left=None, right=TreeNode(val=4, left=None, right=TreeNode(val=5, left=None, right=TreeNode(val=6, left=None, right=None)))))
     print (result.maxDepth(root))
