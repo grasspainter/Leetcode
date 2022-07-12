@@ -27,8 +27,6 @@ Constraints:
 nums is sorted in a strictly increasing order.
 '''
 
-# Definition for a binary tree node.
-from turtle import st
 
 
 class TreeNode:
